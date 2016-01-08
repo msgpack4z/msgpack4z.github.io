@@ -9,7 +9,9 @@ digraph "msgpack4z dependency graph" {
     "io.argonaut:argonaut_2.11"[label=<io.argonaut<BR/><B>argonaut_2.11</B>>, href="https://github.com/argonaut-io/argonaut"]
     "com.github.xuwei-k:msgpack4z-java06"[label=<com.github.xuwei-k<BR/><B>msgpack4z-java06</B>>, href="https://github.com/msgpack4z/msgpack4z-java06"]
     "org.msgpack:msgpack"[label=<org.msgpack<BR/><B>msgpack</B>>, href="https://github.com/msgpack/msgpack-java"]
-    "com.github.xuwei-k:msgpack4z-java07"[label=<com.github.xuwei-k<BR/><B>msgpack4z-java07</B>>, href="https://github.com/msgpack4z/msgpack4z-java07"]
+    "com.github.xuwei-k:msgpack4z-java07"[label=<com.github.xuwei-k<BR/><B>msgpack4z-java07</B>>, href="https://github.com/msgpack4z/msgpack4z-java/tree/0.2.x"]
+    "com.github.xuwei-k:msgpack4z-java"[label=<com.github.xuwei-k<BR/><B>msgpack4z-java</B>>, href="https://github.com/msgpack4z/msgpack4z-java"]
+    "org.msgpack:msgpack-core:0.7.x"[label=<org.msgpack<BR/><B>msgpack-core</B><BR/>0.7.x>, href="https://github.com/msgpack/msgpack-java"]
     "org.msgpack:msgpack-core"[label=<org.msgpack<BR/><B>msgpack-core</B>>, href="https://github.com/msgpack/msgpack-java"]
     "com.github.xuwei-k:msgpack4z-native_2.11"[label=<com.github.xuwei-k<BR/><B>msgpack4z-native_2.11</B>>, href="https://github.com/msgpack4z/msgpack4z-native"]
     "com.github.xuwei-k:msgpack4z-shapeless_2.11"[label=<com.github.xuwei-k<BR/><B>msgpack4z-shapeless_2.11</B>>, href="https://github.com/msgpack4z/msgpack4z-shapeless"]
@@ -23,7 +25,8 @@ digraph "msgpack4z dependency graph" {
     "com.github.xuwei-k:msgpack4z-jawn_2.11" -> "org.spire-math:jawn-ast_2.11"
     "com.github.xuwei-k:msgpack4z-argonaut_2.11" -> "io.argonaut:argonaut_2.11"
     "com.github.xuwei-k:msgpack4z-java06" -> "org.msgpack:msgpack"
-    "com.github.xuwei-k:msgpack4z-java07" -> "org.msgpack:msgpack-core"
+    "com.github.xuwei-k:msgpack4z-java07" -> "org.msgpack:msgpack-core:0.7.x"
+    "com.github.xuwei-k:msgpack4z-java" -> "org.msgpack:msgpack-core"
     "com.github.xuwei-k:msgpack4z-play_2.11" -> "com.github.xuwei-k:msgpack4z-core_2.11"
     "com.github.xuwei-k:msgpack4z-shapeless_2.11" -> "com.github.xuwei-k:msgpack4z-core_2.11"
     "com.github.xuwei-k:msgpack4z-jawn_2.11" -> "com.github.xuwei-k:msgpack4z-core_2.11"
@@ -36,5 +39,6 @@ digraph "msgpack4z dependency graph" {
     "com.github.xuwei-k:msgpack4z-java06" -> "com.github.xuwei-k:msgpack4z-api"
     "com.github.xuwei-k:msgpack4z-core_2.11" -> "com.github.xuwei-k:msgpack4z-api"
     "com.github.xuwei-k:msgpack4z-java07" -> "com.github.xuwei-k:msgpack4z-api"
+    "com.github.xuwei-k:msgpack4z-java" -> "com.github.xuwei-k:msgpack4z-api"
     "com.github.xuwei-k:msgpack4z-shapeless_2.11" -> "com.chuusai:shapeless_2.11"
 }
