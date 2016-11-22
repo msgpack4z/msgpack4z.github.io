@@ -278,7 +278,7 @@
 </g>
 <!-- io.circe:circe&#45;core_2.11 -->
 <g id="node20" class="node"><title>io.circe:circe&#45;core_2.11</title>
-<g id="a_node20"><a xlink:href="https://github.com/travisbrown/circe" xlink:title="io.circe&lt;BR/&gt;&lt;B&gt;circe&#45;core_2.11&lt;/B&gt;" target="_blank">
+<g id="a_node20"><a xlink:href="https://github.com/circe/circe" xlink:title="io.circe&lt;BR/&gt;&lt;B&gt;circe&#45;core_2.11&lt;/B&gt;" target="_blank">
 <ellipse fill="none" stroke="black" cx="379" cy="-25" rx="72.5693" ry="25.4118"/>
 <text text-anchor="start" x="358.208" y="-28.8" font-family="Times,serif" font-size="14.00">io.circe</text>
 <text text-anchor="start" x="335.534" y="-14.8" font-family="Times,serif" font-weight="bold" font-size="14.00">circe&#45;core_2.11</text>

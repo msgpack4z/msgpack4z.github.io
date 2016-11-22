@@ -20,7 +20,7 @@ digraph "msgpack4z dependency graph" {
     "com.github.xuwei-k:msgpack4z-api"[label=<com.github.xuwei-k<BR/><B>msgpack4z-api</B>>, href="https://github.com/msgpack4z/msgpack4z-api"]
     "com.chuusai:shapeless_2.11"[label=<com.chuusai<BR/><B>shapeless_2.11</B>>, href="https://github.com/milessabin/shapeless"]
     "com.github.xuwei-k:msgpack4z-circe_2.11"[label=<com.github.xuwei-k<BR/><B>msgpack4z-circe_2.11</B>>, href="https://github.com/msgpack4z/msgpack4z-circe"]
-    "io.circe:circe-core_2.11"[label=<io.circe<BR/><B>circe-core_2.11</B>>, href="https://github.com/travisbrown/circe"]
+    "io.circe:circe-core_2.11"[label=<io.circe<BR/><B>circe-core_2.11</B>>, href="https://github.com/circe/circe"]
     "com.github.xuwei-k:msgpack4z-play_2.11" -> "com.typesafe.play:play-json_2.11"
     "com.github.xuwei-k:msgpack4z-jawn_2.11" -> "org.spire-math:jawn-ast_2.11"
     "com.github.xuwei-k:msgpack4z-argonaut_2.11" -> "io.argonaut:argonaut_2.11"
