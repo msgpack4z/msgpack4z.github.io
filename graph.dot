@@ -2,7 +2,7 @@ digraph "msgpack4z dependency graph" {
     graph[rankdir="LR"]
     node[target="_blank"]
     "com.github.xuwei-k:msgpack4z-play_2.11"[label=<com.github.xuwei-k<BR/><B>msgpack4z-play_2.11</B>>, href="https://github.com/msgpack4z/msgpack4z-play"]
-    "com.typesafe.play:play-json_2.11"[label=<com.typesafe.play<BR/><B>play-json_2.11</B>>, href="https://github.com/playframework/playframework"]
+    "com.typesafe.play:play-json_2.11"[label=<com.typesafe.play<BR/><B>play-json_2.11</B>>, href="https://github.com/playframework/play-json"]
     "com.github.xuwei-k:msgpack4z-jawn_2.11"[label=<com.github.xuwei-k<BR/><B>msgpack4z-jawn_2.11</B>>, href="https://github.com/msgpack4z/msgpack4z-jawn"]
     "org.spire-math:jawn-ast_2.11"[label=<org.spire-math<BR/><B>jawn-ast_2.11</B>>, href="https://github.com/non/jawn"]
     "com.github.xuwei-k:msgpack4z-argonaut_2.11"[label=<com.github.xuwei-k<BR/><B>msgpack4z-argonaut_2.11</B>>, href="https://github.com/msgpack4z/msgpack4z-argonaut"]

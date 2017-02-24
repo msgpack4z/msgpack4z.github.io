@@ -20,7 +20,7 @@
 </g>
 <!-- com.typesafe.play:play&#45;json_2.11 -->
 <g id="node2" class="node"><title>com.typesafe.play:play&#45;json_2.11</title>
-<g id="a_node2"><a xlink:href="https://github.com/playframework/playframework" xlink:title="com.typesafe.play&lt;BR/&gt;&lt;B&gt;play&#45;json_2.11&lt;/B&gt;" target="_blank">
+<g id="a_node2"><a xlink:href="https://github.com/playframework/play-json" xlink:title="com.typesafe.play&lt;BR/&gt;&lt;B&gt;play&#45;json_2.11&lt;/B&gt;" target="_blank">
 <ellipse fill="none" stroke="black" cx="379" cy="-646" rx="83.1635" ry="25.4118"/>
 <text text-anchor="start" x="328.076" y="-649.8" font-family="Times,serif" font-size="14.00">com.typesafe.play</text>
 <text text-anchor="start" x="337.455" y="-635.8" font-family="Times,serif" font-weight="bold" font-size="14.00">play&#45;json_2.11</text>
