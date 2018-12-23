@@ -4,7 +4,7 @@ digraph "msgpack4z dependency graph" {
     "com.github.xuwei-k:msgpack4z-play_2.12"[label=<com.github.xuwei-k<BR/><B>msgpack4z-play_2.12</B>>, href="https://github.com/msgpack4z/msgpack4z-play"]
     "com.typesafe.play:play-json_2.12"[label=<com.typesafe.play<BR/><B>play-json_2.12</B>>, href="https://github.com/playframework/play-json"]
     "com.github.xuwei-k:msgpack4z-jawn_2.12"[label=<com.github.xuwei-k<BR/><B>msgpack4z-jawn_2.12</B>>, href="https://github.com/msgpack4z/msgpack4z-jawn"]
-    "org.spire-math:jawn-ast_2.12"[label=<org.spire-math<BR/><B>jawn-ast_2.12</B>>, href="https://github.com/non/jawn"]
+    "org.typelevel:jawn-ast_2.12"[label=<org.typelevel<BR/><B>jawn-ast_2.12</B>>, href="https://github.com/typelevel/jawn"]
     "com.github.xuwei-k:msgpack4z-argonaut_2.12"[label=<com.github.xuwei-k<BR/><B>msgpack4z-argonaut_2.12</B>>, href="https://github.com/msgpack4z/msgpack4z-argonaut"]
     "io.argonaut:argonaut_2.12"[label=<io.argonaut<BR/><B>argonaut_2.12</B>>, href="https://github.com/argonaut-io/argonaut"]
     "com.github.xuwei-k:msgpack4z-java06"[label=<com.github.xuwei-k<BR/><B>msgpack4z-java06</B>>, href="https://github.com/msgpack4z/msgpack4z-java06"]
@@ -22,7 +22,7 @@ digraph "msgpack4z dependency graph" {
     "com.github.xuwei-k:msgpack4z-circe_2.12"[label=<com.github.xuwei-k<BR/><B>msgpack4z-circe_2.12</B>>, href="https://github.com/msgpack4z/msgpack4z-circe"]
     "io.circe:circe-core_2.12"[label=<io.circe<BR/><B>circe-core_2.12</B>>, href="https://github.com/circe/circe"]
     "com.github.xuwei-k:msgpack4z-play_2.12" -> "com.typesafe.play:play-json_2.12"
-    "com.github.xuwei-k:msgpack4z-jawn_2.12" -> "org.spire-math:jawn-ast_2.12"
+    "com.github.xuwei-k:msgpack4z-jawn_2.12" -> "org.typelevel:jawn-ast_2.12"
     "com.github.xuwei-k:msgpack4z-argonaut_2.12" -> "io.argonaut:argonaut_2.12"
     "com.github.xuwei-k:msgpack4z-java06" -> "org.msgpack:msgpack"
     "com.github.xuwei-k:msgpack4z-java07" -> "org.msgpack:msgpack-core:0.7.x"
